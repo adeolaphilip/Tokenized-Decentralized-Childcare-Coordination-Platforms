@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/activity-planning.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.child-development]
+path = 'contracts/child-development.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
